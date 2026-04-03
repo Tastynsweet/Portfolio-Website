@@ -12,7 +12,7 @@ const projectData = {
         <li><strong>Active Reload (R):</strong> Once the 5 projectiles are exhausted, players must manually press 'R' to cycle in a fresh randomized batch.</li>
       </ul>
 
-      <img src="src/images/temp.PNG" class="modal-inline-img">
+      <img src="./src/images/temp.PNG" class="modal-inline-img">
       <p class="img-caption">Figure 1: The UI feedback system for the randomized cannon queue.</p>
 
       <p>The entire gameplay loop is custom-built in C#. To ensure precise combat feedback, projectile physics are handled through Unity's engine but augmented with custom collision logic to differentiate hit behavior across various enemy types. All systems communicate through an object-oriented architecture with reusable components, allowing for seamless scaling of enemy and enemy variants without rewriting core logic.</p>
