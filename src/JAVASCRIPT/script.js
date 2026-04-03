@@ -34,7 +34,7 @@ const projectData = {
         <li><strong>Scaling Economy:</strong> The Faith accumulation system utilizes a base click value modified by passive multipliers, balanced iteratively to maintain rewarding progression.</li>
       </ul>
 
-      <img src="src/images/temp.PNG" class="modal-inline-img">
+      <img src="./src/images/temp.PNG" class="modal-inline-img">
       <p class="img-caption">Figure 1: Iteration on the purchase-state UI and multiplier feedback loop.</p>
 
       <p>Technically, the game is built on a decoupled architecture where the UI listens for events from the data layer. This ensures that adding new "Coping Tool" items to the shop doesn't require touching the core clicking logic.</p>
@@ -56,7 +56,7 @@ const projectData = {
         <li><strong>Art Pipeline:</strong> Designed all character sprites and rigged animations through Unity’s Animator using state machine transitions for fluid combat visuals.</li>
       </ul>
 
-      <img src="src/images/temp.PNG" class="modal-inline-img">
+      <img src="./src/images/temp.PNG" class="modal-inline-img">
       <p class="img-caption">Figure 1: Enemy AI swarming behavior and real-time health UI tracking.</p>
 
       <p>As the Technical Artist, my primary goal was clearing bottlenecks. By owning the full art-to-engine pipeline and major UI systems, I allowed my teammate to focus entirely on core combat mechanics. This collaboration taught me how to identify the "real" bottleneck in a small team and build robust systems under intense time pressure.</p>
@@ -79,7 +79,7 @@ const projectData = {
         <li><strong>Physics-UI Synergy:</strong> Designed the UI and pixel art with a focus on high readability to provide visual clarity amidst the ragdoll physics chaos on screen.</li>
       </ul>
 
-      <img src="src/images/temp.PNG" class="modal-inline-img">
+      <img src="./src/images/temp.PNG" class="modal-inline-img">
       <p class="img-caption">Figure 1: Interaction between leafblower force vectors and clown ragdoll components.</p>
 
       <p>My contribution centered on building a scalable system logic that could handle high enemy counts. By programming the spawning and state management through a centralized controller, we avoided "spaghetti code" during the 48-hour jam. This allowed the team to focus on tweaking the physics values to make the leafblower interaction feel tactile and satisfying.</p>
@@ -97,7 +97,7 @@ const projectData = {
     body: `
       <p><strong>Abstract:</strong> This spatial analysis tool extracts precise 3D dimensions from mobile LiDAR scan data to automate warehouse logistics. Developed as part of Team Beatbox, the system achieves a <strong>Mean Absolute Error of ~2.7 cm</strong> and maintains a <strong>5% relative error</strong> across varied box sizes.</p>
       
-      <img src="src/images/Lidar Pipeline.PNG" class="modal-document-img">
+      <img src="./src/images/Lidar Pipeline.PNG" class="modal-document-img">
       <p class="img-caption">Exhibit A: System Pipeline - From iPhone (.ply) acquisition to AABB calculation.</p>
 
       <h4>Technical Methodology</h4>
@@ -108,7 +108,7 @@ const projectData = {
         <li><strong>ML Confidence Model:</strong> A classification layer utilizing <strong>Multilayer Perceptron (MLP)</strong> and Decision Trees to predict measurement accuracy, currently reaching a 92% confidence threshold on standard scans.</li>
       </ul>
 
-      <img src="src/images/Methods.PNG" class="modal-document-img">
+      <img src="./src/images/Methods.PNG" class="modal-document-img">
       <p class="img-caption">Exhibit B: Visual Representation of Technical Methodology.</p>
     `,
     links: [
@@ -143,7 +143,7 @@ const projectData = {
     body: `
       <p>A scheduling automation tool designed to manage tabletop RPG session availability through event-driven Discord interactions.</p>
 
-      <img src="src/images/dnd bot.PNG" class="modal-document-img">
+      <img src="./src/images/dnd bot.PNG" class="modal-document-img">
       <p class="img-caption">Technical Spec: Persistent data structure for vote tracking across restarts.</p>
 
       <h4>System Architecture</h4>
