@@ -689,6 +689,13 @@ body::after {
   margin-top: 20px;
 }
 
+.img-caption {
+    font-size: 0.85em;
+    color: #a0a0a0;
+    text-align: left;
+    margin-top: 5px;
+}
+
 /*CONTACT ICONS*/
 .social-links {
   display: flex;
